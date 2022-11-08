@@ -1,15 +1,15 @@
 package QUESTAO3;
 
-import java.util.Date;;
+
 
 public class Perfume {
     private String nomeFantasia;
     private String nomeTecnico;
-    private Date dataCriacao;
+    private String dataCriacao;
     private double indiceDeRetencao;
     private double valor;
 
-    public Perfume(String nomeFantasia, String nomeTecnico, Date dataCriacao, double indiceDeRetencao, double valor) {
+    public Perfume(String nomeFantasia, String nomeTecnico, String dataCriacao, double indiceDeRetencao, double valor) {
 
         this.nomeFantasia = nomeFantasia;
         this.nomeTecnico = nomeTecnico;
@@ -35,11 +35,11 @@ public class Perfume {
         this.nomeTecnico = nomeTecnico;
     }
 
-    public Date getDataCriacao() {
+    public String getDataCriacao() {
         return dataCriacao;
     }
 
-    public void setDataCriacao(Date dataCriacao) {
+    public void setDataCriacao(String dataCriacao) {
         this.dataCriacao = dataCriacao;
     }
 

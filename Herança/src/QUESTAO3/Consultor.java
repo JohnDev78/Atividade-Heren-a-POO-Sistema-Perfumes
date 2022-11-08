@@ -1,24 +1,22 @@
 package QUESTAO3;
 
-import java.util.ArrayList;
-import java.util.Date;
 
 public class Consultor extends Comprador {
-    private Date dataFiliacao;
+    private String dataFiliacao;
 
-    public Consultor(String nome, String cpf, String sexo, Date dataFiliacao, ArrayList<Compra> compras, double pontos) {
+    public Consultor(String nome, String cpf, String sexo, String dataFiliacao,  double pontos) {
 
-        super(nome, cpf, sexo, compras, pontos);
+        super(nome, cpf, sexo, pontos);
 
         this.dataFiliacao = dataFiliacao;
 
     }
 
-    public Date getDataFiliacao() {
+    public String getDataFiliacao() {
         return dataFiliacao;
     }
 
-    public void setDataFiliacao(Date dataFiliacao) {
+    public void setDataFiliacao(String dataFiliacao) {
         this.dataFiliacao = dataFiliacao;
     }
 

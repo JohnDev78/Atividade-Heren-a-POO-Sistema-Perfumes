@@ -1,19 +1,16 @@
 package QUESTAO3;
 
-import java.util.ArrayList;
-
 public class Comprador {
     private String nome;
     private String cpf;
     private String sexo;
-    private ArrayList<Compra> compras;
     private double pontos;
 
-    public Comprador(String nome, String cpf, String sexo, ArrayList<Compra> compras, double pontos) {
+    public Comprador(String nome, String cpf, String sexo, double pontos) {
         this.nome = nome;
         this.cpf = cpf;
         this.sexo = sexo;
-        this.compras = compras;
+
         this.pontos = pontos;
 
     }
@@ -40,14 +37,6 @@ public class Comprador {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
-    }
-
-    public ArrayList<Compra> getCompras() {
-        return compras;
-    }
-
-    public void setCompras(ArrayList<Compra> compras) {
-        this.compras = compras;
     }
 
     public double getPontos() {

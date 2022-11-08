@@ -1,28 +1,27 @@
 package QUESTAO3;
 
-import java.util.Date;
 
 public class Compra {
 
-    private Date dataDaCompra;
+    private String dataDaCompra;
     private double valor;
     private double quantidadeDePerfume;
-    private Perfume perfume;
+   // private Perfume perfume;
 
 
 
-    public Compra(Date dataDaCompra, double valor, double quantidadeDePerfume, Perfume perfume) {
+    public Compra(String dataDaCompra, double valor, double quantidadeDePerfume) {
         this.dataDaCompra = dataDaCompra;
         this.valor = valor;
         this.quantidadeDePerfume = quantidadeDePerfume;
-        this.perfume = perfume;
+      
     }
     
-    public Date getDataDaCompra() {
+    public String getDataDaCompra() {
         return dataDaCompra;
     }
 
-    public void setDataDaCompra(Date dataDaCompra) {
+    public void setDataDaCompra(String dataDaCompra) {
         this.dataDaCompra = dataDaCompra;
     }
 
@@ -42,14 +41,7 @@ public class Compra {
         this.quantidadeDePerfume = quantidadeDePerfume;
     }
 
-    public Perfume getPerfume() {
-        return perfume;
-    }
-
-    public void setPerfume(Perfume perfume) {
-        this.perfume = perfume;
-    }
-
+    
     
 
 

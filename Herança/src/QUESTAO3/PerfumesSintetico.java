@@ -1,12 +1,11 @@
 package QUESTAO3;
 
-import java.util.Date;
 
 public class PerfumesSintetico extends Perfume {
 
     private double taxaFatorDeRisco;
 
-    public PerfumesSintetico(String nomeFantasia, String nomeTecnico, Date dataCriacao, double indiceDeRetencao, double taxaFatorDeRisco, double valor) {
+    public PerfumesSintetico(String nomeFantasia, String nomeTecnico, String dataCriacao, double indiceDeRetencao, double taxaFatorDeRisco, double valor) {
         
         super(nomeFantasia, nomeTecnico, dataCriacao, indiceDeRetencao,valor);
 
